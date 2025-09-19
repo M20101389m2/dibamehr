@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>سالن زیبایی دیبا مهر</title>
+
+  <!-- فونت ایران‌سنس -->
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/iransans-web@v2.0.0/css/iransans.css" rel="stylesheet"/>
+
+  <!-- استایل اصلی -->
+  <link rel="stylesheet" href="style.css"/>
+
+  <!-- Persian datepicker CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>سالن زیبایی دیبا مهر</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#home" class="ripple">خانه</a></li>
+        <li><a href="#photos" class="ripple">گالری عکس</a></li>
+        <li><a href="#videos" class="ripple">ویدیوها</a></li>
+        <li><a href="#prices" class="ripple">قیمت خدمات</a></li>
+        <li><a href="#faq" class="ripple">سوالات متداول</a></li>
+        <li><a href="#courses" class="ripple">دوره‌ها</a></li>
+        <li><a href="#instructors" class="ripple">اساتید</a></li>
+        <li><a href="#enroll" class="ripple">ثبت‌نام دوره</a></li>
+        <li><a href="#booking" class="ripple">رزرو آنلاین</a></li>
+        <li><a href="#contact" class="ripple">تماس با ما</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="section-box">
+    <h2>خوش آمدید</h2>
+    <p>سامانه ثبت‌نام دوره‌ها و رزرو آنلاین خدمات زیبایی دیبا مهر</p>
+  </section>
+
+  <!-- GALLERIES -->
+  <section id="photos" class="section-box">
+    <h2>گالری عکس</h2>
+    <div class="photo-gallery">
+      <img src="assets/images/photo1.jpg" alt="نمونه کار 1"/>
+      <img src="assets/images/photo2.jpg" alt="نمونه کار 2"/>
+      <img src="assets/images/photo3.jpg" alt="نمونه کار 3"/>
+      <img src="assets/images/photo4.jpg" alt="نمونه کار 4"/>
+    </div>
+  </section>
+
+  <section id="videos" class="section-box">
+    <h2>ویدیوها</h2>
+    <div class="video-gallery">
+      <video controls><source src="assets/videos/video1.mp4" type="video/mp4"/></video>
+      <video controls><source src="assets/videos/video2.mp4" type="video/mp4"/></video>
+    </div>
+  </section>
+
+  <!-- PRICES (source of services list) -->
+  <section id="prices" class="section-box" aria-labelledby="prices-heading">
+    <h2 id="prices-heading">قیمت خدمات</h2>
+    <table class="price-table" id="priceTable">
+      <thead>
+        <tr><th>خدمات</th><th>قیمت</th></tr>
+      </thead>
+      <tbody>
+        <tr><td data-key="رنگ و مش">رنگ و مش (انواع هایلایت و دکلره)</td><td>1,500,000 تا 15,000,000</td></tr>
+        <tr><td data-key="میکاپ">میکاپ</td><td>800,000 تا 2,500,000</td></tr>
+        <tr><td data-key="شینیون">شینیون</td><td>450,000 تا 1,000,000</td></tr>
+        <tr><td data-key="فیشال">فیشال (پاکسازی)</td><td>550,000 تا 1,200,000</td></tr>
+        <tr><td data-key="اصلاح و ابرو">اصلاح و ابرو</td><td>250,000</td></tr>
+        <tr><td data-key="وکس">وکس</td><td>200,000</td></tr>
+        <tr><td data-key="ناخن">ناخن</td><td>150,000 تا 700,000</td></tr>
+        <tr><td data-key="کف‌سابی">کف‌سابی (جکوزی پا)</td><td>550,000</td></tr>
+        <tr><td data-key="تتو">تتو و میکروپیگمنتیشن</td><td>800,000 تا 3,000,000</td></tr>
+        <tr><td data-key="کوتاهی">کوتاهی</td><td>300,000 تا 450,000</td></tr>
+        <tr><td data-key="کاشت مژه">کاشت مژه</td><td>350,000 تا 550,000</td></tr>
+        <tr><td data-key="اکستنشن مژه">اکستنشن مژه</td><td>550,000 تا 1,000,000</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section-box">
+    <h2>سوالات متداول</h2>
+    <ul class="faq-list">
+      <li><strong>چطور می‌توانم وقت رزرو کنم؟</strong><br/>رزرو فقط از طریق سایت انجام می‌شود، و در صورت نیاز به مشاوره، فقط با شماره تماس بگیرید.</li>
+      <li><strong>آیا برای ثبت نهایی نیاز به پرداخت بیعانه است؟</strong><br/>برای ثبت نهایی، بله لازم است.</li>
+      <li><strong>آیا خدمات ویژه عروس دارید؟</strong><br/>بله.</li>
+      <li><strong>آیا امکان دریافت مشاوره قبل از رزرو آنلاین وجود دارد؟</strong><br/>بله، می‌توانید قبل از رزرو آنلاین با شماره مربوطه تماس بگیرید یا از واتساپ استفاده کنید.</li>
+      <li><strong>چطور از تخفیف‌ها و جشنواره‌ها مطلع شوم؟</strong><br/>نحوه اطلاع‌رسانی از طریق سایت انجام خواهد شد.</li>
+    </ul>
+  </section>
+
+  <!-- COURSES (complete list) -->
+  <section id="courses" class="section-box">
+    <h2>دوره‌ها</h2>
+    <div class="course-list">
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_nail.jpg" alt="ناخن تخصصی"/>
+        <h3>ناخن تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۹,۰۰۰,۰۰۰</span> <span class="discounted-price">۸,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="ناخن تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش کامل کاشت، ترمیم، دیزاین و نکات بهداشتی حرفه‌ای.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_materials.jpg" alt="کار با مواد تخصصی"/>
+        <h3>کار با مواد تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۲,۰۰۰,۰۰۰</span> <span class="discounted-price">۱۰,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="کار با مواد تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش انتخاب و کار با برندها، رقیق‌سازی، ایمنی و اجرا روی مدل.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_shinyon.jpg" alt="شینیون تخصصی"/>
+        <h3>شینیون تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۰,۰۰۰,۰۰۰</span> <span class="discounted-price">۸,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="شینیون تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>متدهای روز شینیون، حجم‌دهی، استحکام و طراحی عروس/مجلسی.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_makeup.jpg" alt="میکاپ تخصصی"/>
+        <h3>میکاپ تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۵,۰۰۰,۰۰۰</span> <span class="discounted-price">۱۲,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="میکاپ تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش کامل گریم، کانتورینگ، ماندگاری و سبک‌های متنوع میکاپ.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_keratin.jpg" alt="کراتینه صافی و احیا"/>
+        <h3>کراتینه صافی و احیا تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۲,۰۰۰,۰۰۰</span> <span class="discounted-price">۸,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="کراتینه صافی و احیا تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>مرور کامل مواد، تکنیک‌های صافی و احیا و مراقبت پس از انجام.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_microblading.jpg" alt="میکروبلیدینگ تخصصی"/>
+        <h3>میکروبلیدینگ تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۲۲,۰۰۰,۰۰۰</span> <span class="discounted-price">۱۶,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="میکروبلیدینگ تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش کامل طراحی، رنگ‌گذاری، ایمنی و نگهداری در میکروبلیدینگ.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_facial.jpg" alt="پاکسازی تخصصی"/>
+        <h3>پاکسازی تخصصی (فیشال)</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۲,۰۰۰,۰۰۰</span> <span class="discounted-price">۷,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="پاکسازی تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش روش‌های پاکسازی، ماسک‌درمانی و مراقبت‌های پوستی حرفه‌ای.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_extension.jpg" alt="اکستنشن مژه تخصصی"/>
+        <h3>اکستنشن مژه تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۸,۰۰۰,۰۰۰</span> <span class="discounted-price">۵,۰۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="اکستنشن مژه تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>تکنیک‌های لیفت و اکستنشن، بهداشت و ماندگاری کار.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_lash_lift.jpg" alt="لیفت و لمینیت مژه تخصصی"/>
+        <h3>لیفت و لمینیت مژه تخصصی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱,۵۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="لیفت و لمینیت مژه تخصصی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>آموزش لیفت، لمینیت و مراقبت‌های تخصصی مژه.</p></details>
+      </div>
+
+      <div class="course-card">
+        <img src="assets/images/courses/course_extension_hair.jpg" alt="اکستنشن مو"/>
+        <h3>اکستنشن مو و آرایش‌های حجمی</h3>
+        <p>مدت: x جلسه</p>
+        <p class="course-price"><span class="original-price">۱۳,۰۰۰,۰۰۰</span> <span class="discounted-price">۹,۵۰۰,۰۰۰</span></p>
+        <button class="enroll-btn ripple" data-course="اکستنشن مو و آرایش‌های حجمی">ثبت‌نام</button>
+        <details class="course-details"><summary class="ripple">توضیحات بیشتر</summary><p>انواع متدهای اکستنشن و تکنیک‌های تثبیت و رنگ‌سازی.</p></details>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INSTRUCTORS -->
+  <section id="instructors" class="section-box">
+    <h2>اساتید</h2>
+    <div class="instructor-list">
+      <div class="instructor-card">
+        <img src="assets/images/instructors/inst1.jpg" alt="خانم فاطمه یوسفی"/>
+        <h3>خانم فاطمه یوسفی</h3>
+        <p>تخصص: x</p>
+        <p>سابقه: 14 سال</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENROLL -->
+  <section id="enroll" class="section-box">
+    <h2>ثبت‌نام دوره</h2>
+    <form id="enrollForm" autocomplete="off" novalidate>
+      <select id="course-name" required>
+        <option value="">دوره مورد نظر را انتخاب کنید</option>
+        <option value="ناخن تخصصی">ناخن تخصصی</option>
+        <option value="کار با مواد تخصصی">کار با مواد تخصصی</option>
+        <option value="شینیون تخصصی">شینیون تخصصی</option>
+        <option value="میکاپ تخصصی">میکاپ تخصصی</option>
+        <option value="کراتینه صافی و احیا تخصصی">کراتینه صافی و احیا تخصصی</option>
+        <option value="میکروبلیدینگ تخصصی">میکروبلیدینگ تخصصی</option>
+        <option value="پاکسازی تخصصی">پاکسازی تخصصی</option>
+        <option value="اکستنشن مژه تخصصی">اکستنشن مژه تخصصی</option>
+        <option value="لیفت و لمینیت مژه تخصصی">لیفت و لمینیت مژه تخصصی</option>
+        <option value="اکستنشن مو و آرایش‌های حجمی">اکستنشن مو و آرایش‌های حجمی</option>
+      </select>
+
+       </select>
+
+      <input type="text" id="full-name" placeholder="نام و نام خانوادگی" required/>
+      <input type="tel" id="phone" placeholder="شماره تماس (09xxxxxxxxx)" required pattern="^0?9\\d{9}$"/>
+      <button type="submit" class="ripple">ارسال به واتساپ</button>
+      <p id="enrollMsg" class="form-msg" aria-live="polite"></p>
+    </form>
+
+    <p class="enroll-disclaimer">
+      ارسال درخواست به منزله ثبت نهایی نمی‌باشد و بعد از ارسال درخواست و بررسی آن، ثبت‌نام نهایی خواهد شد.
+    </p>
+  </section>
+
+  <!-- BOOKING -->
+  <section id="booking" class="section-box">
+    <h2>رزرو آنلاین</h2>
+
+    <form id="bookingForm" novalidate>
+      <label for="bk-service">نوع خدمات مورد نیاز را انتخاب کنید:</label>
+      <select id="bk-service" required>
+        <option value="">انتخاب نوع خدمات</option>
+      </select>
+
+      <label for="bk-date">تاریخ مورد نظر را انتخاب کنید:</label>
+      <input type="text" id="bk-date" class="jalali-picker" placeholder="انتخاب تاریخ" required readonly/>
+
+      <label for="bk-time">ساعت مورد نظر را وارد کنید یا انتخاب کنید:</label>
+      <div class="time-row">
+        <select id="bk-time-select">
+          <option value="">انتخاب ساعت از لیست</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+        </select>
+
+        <span class="or-text">یا</span>
+
+        <input type="time" id="bk-time-free" aria-label="ساعت دلخواه" />
+      </div>
+
+      <label for="bk-age">سن:</label>
+      <input type="number" id="bk-age" placeholder="سن (عدد)" min="8" max="120" required/>
+
+      <label for="bk-name">نام و نام خانوادگی:</label>
+      <input type="text" id="bk-name" placeholder="نام و نام خانوادگی" required/>
+
+      <label for="bk-phone">شماره تماس (شماره موبایل):</label>
+      <input type="tel" id="bk-phone" placeholder="09xxxxxxxxx" required pattern="^0?9\\d{9}$"/>
+
+      <button type="submit" class="ripple">ثبت رزرو</button>
+      <p id="bookingMsg" class="form-msg" aria-live="polite"></p>
+    </form>
+
+    <p class="booking-notice">
+      توجه: رزرو و نوبت دهی خدمت در صورت تایید و پرداخت بیعانه و گفتگو با شماره مربوطه نهایی خواهد شد.
+    </p>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-box">
+    <h2>تماس با ما</h2>
+    <p>📞 09102674879</p>
+    <p>📧 پشتیبانی سایت:dibamehrbeauty@gmail.com</p>
+    <p>📷 اینستاگرام: <a href="https://instagram.com/dibamehr_academy" target="_blank" rel="noopener">dibamehr_academy</a></p>
+    <p>📍 محدوده: تهران، منطقه ۱۰، خیابان جیحون بین مالک اشتر و مرتضوی</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      این وب‌سایت جهت تسهیل فرآیند ثبت‌نام دوره‌های آموزشی و رزرو آنلاین خدمات زیبایی طراحی شده است.
+      هدف ما ارائه خدمات سریع، دقیق و با کیفیت به مشتریان عزیز می‌باشد.
+    </p>
+    <p>📞 09102674879 | 📧 پشتیبانی سایت: dibamehrbeauty@gmail.com | اینستاگرام: 📷 @dibamehr_academy</p>
+    <p>© 2025 سالن زیبایی دیبا مهر</p>
+    <p> Powered by Microsoft Copilot AI</p>
+
+    <p> Released: 20 September 2025
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="backToTop" class="ripple" aria-label="بازگشت به بالا">↑</button>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/persian-date@1.1.0/dist/persian-date.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/persian-datepicker@1.2.0/dist/js/persian-datepicker.min.js"></script>
+
+  <script>
+    (function populateServices(){
+      const priceRows = document.querySelectorAll('#priceTable tbody tr td[data-key]');
+      const sel = document.getElementById('bk-service');
+      priceRows.forEach(td => {
+        const key = td.getAttribute('data-key');
+        const opt = document.createElement('option');
+        opt.value = key;
+        opt.textContent = key;
+        sel.appendChild(opt);
+      });
+
+      // Also populate enroll course-name from course cards to keep consistency
+      const courseSelect = document.getElementById('course-name');
+      document.querySelectorAll('.course-card h3').forEach(h=>{
+        const v = h.textContent.trim();
+        if (![...courseSelect.options].some(o=>o.value===v)) {
+          const o = document.createElement('option');
+          o.value = v; o.textContent = v;
+          courseSelect.appendChild(o);
+        }
+      });
+    })();
+
+    $(function(){
+      $('.jalali-picker').persianDatepicker({
+        format:'YYYY/MM/DD',
+        initialValue:false,
+        autoClose:true,
+        minDate: new persianDate(), // disable past
+        toolbox:{ calendarSwitch:false },
+        calendar:{ persian:{ locale:'fa', leapYearMode:'algorithmic' } }
+      });
+    });
+
+    function getSelectedTime(){
+      const free = document.getElementById('bk-time-free').value;
+      const sel = document.getElementById('bk-time-select').value;
+      return free || sel || '';
+    }
+
+    document.getElementById('bookingForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const service = document.getElementById('bk-service').value.trim();
+      const date = document.getElementById('bk-date').value.trim();
+      const time = getSelectedTime();
+      const age = document.getElementById('bk-age').value.trim();
+      const name = document.getElementById('bk-name').value.trim();
+      const phone = document.getElementById('bk-phone').value.trim();
+      const msgEl = document.getElementById('bookingMsg');
+
+      if(!service || !date || !time || !age || !name || !phone){
+        msgEl.textContent = 'لطفاً همه فیلدهای الزامی را تکمیل کنید.'; msgEl.className = 'form-msg error';
+        return;
+      }
+      const ageNum = Number(age);
+      if(isNaN(ageNum) || ageNum < 8 || ageNum > 120){
+        msgEl.textContent = 'سن را با عددی بین 8 تا 120 وارد کنید.'; msgEl.className = 'form-msg error';
+        return;
+      }
+      if(!/^0?9\d{9}$/.test(phone)){
+        msgEl.textContent = 'فرمت شماره موبایل معتبر نیست.'; msgEl.className = 'form-msg error';
+        return;
+      }
+
+      const lines = [
+        'رزرو آنلاین',
+        'خدمت: ' + service,
+        'تاریخ: ' + date,
+        'ساعت: ' + time,
+        'نام: ' + name,
+        'سن: ' + age,
+        'شماره: ' + phone
+      ];
+      msgEl.textContent = 'در حال انتقال به واتساپ...'; msgEl.className = 'form-msg success';
+      const waNumber = '989137798144';
+      const url = 'https://wa.me/' + waNumber + '?text=' + encodeURIComponent(lines.join('\n'));
+      window.open(url, '_blank');
+
+      this.reset();
+      document.querySelector('.jalali-picker').value = '';
+    });
+
+    document.getElementById('enrollForm').addEventListener('submit', function(e){
+      e.preventDefault();
+      const course = document.getElementById('course-name').value;
+      const level = document.getElementById('course-level').value;
+      const name = document.getElementById('full-name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const msgEl = document.getElementById('enrollMsg');
+
+      if(!course || !level || !name || !phone){
+        msgEl.textContent = 'لطفاً همه فیلدها را کامل کنید.'; msgEl.className = 'form-msg error'; return;
+      }
+      if(!/^0?9\d{9}$/.test(phone)){
+        msgEl.textContent = 'فرمت شماره موبایل معتبر نیست.'; msgEl.className = 'form-msg error'; return;
+      }
+
+      const text = `درخواست ثبت‌نام دوره:
+نام: ${name}
+شماره: ${phone}
+دوره: ${course}
+سطح: ${level}`;
+      msgEl.textContent = 'در حال انتقال به واتساپ...'; msgEl.className = 'form-msg success';
+      window.open(`https://wa.me/989137798144?text=${encodeURIComponent(text)}`, '_blank');
+      this.reset();
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const t = document.querySelector(a.getAttribute('href'));
+        if(t){ e.preventDefault(); t.scrollIntoView({behavior:'smooth'}); }
+      });
+    });
+
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => { backToTop.style.display = window.scrollY > 300 ? 'flex' : 'none'; });
+    backToTop.addEventListener('click', () => window.scrollTo({top:0, behavior:'smooth'}));
+
+    function attachRipple(el){
+      el.addEventListener('click', function(e){
+        const circle = document.createElement('span');
+        circle.className = 'ripple-circle';
+        const rect = el.getBoundingClientRect();
+        const size = Math.max(rect.width, rect.height);
+        circle.style.width = circle.style.height = size + 'px';
+        circle.style.left = (e.clientX - rect.left - size/2) + 'px';
+        circle.style.top = (e.clientY - rect.top - size/2) + 'px';
+        el.appendChild(circle);
+        setTimeout(()=> circle.remove(), 600);
+      });
+    }
+    document.querySelectorAll('.ripple').forEach(attachRipple);
+  </script>
+</body>
+</html>
